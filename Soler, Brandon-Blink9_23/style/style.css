@@ -1,0 +1,42 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+ .bottomleft, .bottomright, .topright, .topleft
+{
+	width: 33%;
+	height: 32%;
+	background-color: black;
+}
+
+.left, .right
+{
+	width: 33%;
+	height: 74px;
+	background-color: black;
+}
+
+.forward {
+	width: 227px;
+	height: 54px;
+	background-color: black;
+	
+
+}
+
+.bottom, .topmid
+{
+	width: 1%;
+	height: 20%;
+	background-color: black;
+}
+
+img {
+
+	width: 227px;
+	height: 200px;
+	background-color: black;
+}

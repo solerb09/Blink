@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Blink</title>
+
+	<meta charset = "UTF-8">
+
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="scripts/blink.js"></script>
+</head>
+
+<body onload="blink()">
+
+		<table style = "width: 100%; height: 100%;">
+		
+			<tr>
+				<td onmouseover = "changeEyes('img/upperleft.png')" class="topleft"></td>
+				<td onmouseover = "changeEyes('img/top.png')" class="topmid"></td>
+				<th onmouseover = "changeEyes('img/upperright.png')" class="topright"></th> 
+			</tr>
+
+			<tr>
+				<th onmouseover = "changeEyes('img/left.png')" class="left"></th>
+				<td onmouseover = "changeEyes('img/forward.png')" class="forward"> <img id="eyes" src="img/forward.png" ></td>
+				<th onmouseover = "changeEyes('img/right.png')" class="right"></th>
+			</tr>
+
+			<tr>
+				<th onmouseover = "changeEyes('img/bottomleft.png')" class="bottomleft"></th>
+				<th onmouseover = "changeEyes('img/bottom.png')" class="bottom"></th>
+				<th onmouseover = "changeEyes('img/bottomright.png')" class="bottomright"></th>
+			</tr>
+
+		</table>	
